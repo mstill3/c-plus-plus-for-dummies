@@ -108,4 +108,28 @@ add_executable(generics
         "20. Advanced/20. Generics/generics.cpp")
 
 add_executable(pointers
-        "20. Advanced/21. Pointers/pointers.cpp")
+        "20. Advanced/21. Pointers/1. Introduction/pointers.cpp")
+
+add_executable(pointers_math
+        "20. Advanced/21. Pointers/2. Arithmetic/pointer_math.cpp")
+
+add_executable(void_pointers
+        "20. Advanced/21. Pointers/3. Types/void_pointer.cpp")
+
+add_executable(pointers_types
+        "20. Advanced/21. Pointers/3. Types/pointer_types.cpp")
+
+add_executable(pointer_to_pointer
+        "20. Advanced/21. Pointers/4. Pointer to Pointer/pointer_to_pointer.cpp")
+
+add_executable(fn_args
+        "20. Advanced/21. Pointers/5. Function Arguments/fn_args.cpp")
+
+add_executable(fn_args_arrays
+        "20. Advanced/21. Pointers/6. Arrays/fn_args_arrays.cpp")
+
+add_executable(pointers_arrays
+        "20. Advanced/21. Pointers/6. Arrays/pointer_arrays.cpp")
+
+add_executable(pointers_char_array
+        "20. Advanced/21. Pointers/7. Char Arrays/pointer_char_array.cpp")
