@@ -13,6 +13,8 @@ int main()
 {
     std::cout << myMax<int>(4, 7) << "\n";
     std::cout << myMax<double>(4.2, 7.4) << "\n";
+    std::cout << myMax<>(4, 7) << "\n";
+    std::cout << myMax<>(4.2, 7.4) << "\n";
     std::cout << myMax(4, 7) << "\n";
     std::cout << myMax(4.2, 7.4) << "\n";
 }

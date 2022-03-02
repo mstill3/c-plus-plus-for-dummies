@@ -101,41 +101,65 @@ add_executable(arrays
         "4. Datatypes/21. Array/arrays.cpp")
 
 
+add_executable(mod_and_exp
+        "5. Operators/3. Modulo and Exponentiation/mod_and_exp.cpp")
+
+add_executable(comma_and_cond_op
+        "5. Operators/5. Comma and Conditional operator/comma_and_cond_op.cpp")
+
+
 add_executable(bitsets
-        "20. Advanced/5. Bit Set/bitsets.cpp")
+        "5.5 Bits/1. Bit Set/bitsets.cpp")
+
+add_executable(binary
+        "5.5 Bits/2. Binary/binary.cpp")
+
+
+add_executable(namespaces
+        "6. Scopes/2. Namespaces/main.cpp"
+        "6. Scopes/2. Namespaces/foo.cpp"
+        "6. Scopes/2. Namespaces/goo.cpp")
+
 
 add_executable(generics
-        "20. Advanced/20. Generics/generics.cpp")
+        "8. Method Overloads/15. Generics/generics.cpp")
+
+
+
+
 
 add_executable(pointers
-        "20. Advanced/21. Pointers/1. Introduction/pointers.cpp")
+        "10. Statements/8. Pointers/1. Introduction/pointers.cpp")
 
 add_executable(pointers_math
-        "20. Advanced/21. Pointers/2. Arithmetic/pointer_math.cpp")
+        "10. Statements/8. Pointers/2. Arithmetic/pointer_math.cpp")
 
 add_executable(void_pointers
-        "20. Advanced/21. Pointers/3. Types/void_pointer.cpp")
+        "10. Statements/8. Pointers/3. Types/void_pointer.cpp")
 
 add_executable(pointers_types
-        "20. Advanced/21. Pointers/3. Types/pointer_types.cpp")
+        "10. Statements/8. Pointers/3. Types/pointer_types.cpp")
 
 add_executable(pointer_to_pointer
-        "20. Advanced/21. Pointers/4. Pointer to Pointer/pointer_to_pointer.cpp")
+        "10. Statements/8. Pointers/4. Pointer to Pointer/pointer_to_pointer.cpp")
 
 add_executable(fn_args
-        "20. Advanced/21. Pointers/5. Function Arguments/fn_args.cpp")
+        "10. Statements/8. Pointers/5. Function Arguments/fn_args.cpp")
 
 add_executable(fn_args_arrays
-        "20. Advanced/21. Pointers/6. Arrays/fn_args_arrays.cpp")
+        "10. Statements/8. Pointers/6. Arrays/fn_args_arrays.cpp")
 
 add_executable(pointers_arrays
-        "20. Advanced/21. Pointers/6. Arrays/pointer_arrays.cpp")
+        "10. Statements/8. Pointers/6. Arrays/pointer_arrays.cpp")
 
 add_executable(pointers_char_array
-        "20. Advanced/21. Pointers/7. Char Arrays/pointer_char_array.cpp")
+        "10. Statements/8. Pointers/7. Char Arrays/pointer_char_array.cpp")
 
 add_executable(pointers_and_arrays
-        "20. Advanced/21. Pointers/7. Char Arrays/pointers_and_arrays.cpp")
+        "10. Statements/8. Pointers/7. Char Arrays/pointers_and_arrays.cpp")
 
 add_executable(pointers_and_multiarrays
-        "20. Advanced/21. Pointers/8. Multi-Array/pointers_and_multiarrays.cpp")
+        "10. Statements/8. Pointers/8. Multi-Array/pointers_and_multiarrays.cpp")
+
+add_executable(for_each
+        "10. Statements/13. For Each/for_each.cpp")
