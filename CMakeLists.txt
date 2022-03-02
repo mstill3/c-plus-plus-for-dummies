@@ -133,3 +133,9 @@ add_executable(pointers_arrays
 
 add_executable(pointers_char_array
         "20. Advanced/21. Pointers/7. Char Arrays/pointer_char_array.cpp")
+
+add_executable(pointers_and_arrays
+        "20. Advanced/21. Pointers/7. Char Arrays/pointers_and_arrays.cpp")
+
+add_executable(pointers_and_multiarrays
+        "20. Advanced/21. Pointers/8. Multi-Array/pointers_and_multiarrays.cpp")
