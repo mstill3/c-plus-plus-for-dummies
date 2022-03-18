@@ -22,5 +22,15 @@ int main()
     cout << name3 << endl;
     cout << strlen(name3) << endl;
 
+    // array of array of chars
+    char arg1[] = {'-', '-', 'n', 'a', 'm', 'e', '\0'};
+    char arg2[] = {'m', 'a', 't', 't', '\0'};
+
+    char* arg1Pointer = arg1;
+    char* arg2Pointer = arg2;
+
+    int argc = 2;
+    char* argv[] = {arg1Pointer, arg2Pointer};
+
     return 0;
 }
